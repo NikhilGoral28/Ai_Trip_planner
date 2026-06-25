@@ -1,2 +1,19 @@
 langchain
 fastapi
+langchain-community
+langchain-experimental
+python-dotenv
+streamlit
+uvicorn
+pydantic
+requests
+httpx
+langchain_google_community
+langchain-openai
+langchain_google
+langchain_groq
+yaml
+langgraph
+
+
+-e .
