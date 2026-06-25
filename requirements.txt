@@ -1,19 +1,25 @@
 langchain
-fastapi
+langchain-core
 langchain-community
 langchain-experimental
-python-dotenv
-streamlit
-uvicorn
-pydantic
-requests
-httpx
-langchain_google_community
-langchain-openai
-langchain_google
-langchain_groq
-yaml
 langgraph
 
+fastapi
+uvicorn
+
+streamlit
+
+python-dotenv
+pydantic
+
+requests
+httpx
+
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain-google-community
+
+PyYAML
 
 -e .
