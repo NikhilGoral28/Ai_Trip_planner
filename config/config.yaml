@@ -1,0 +1,3 @@
+llm:
+  provider: 'groq'
+  model_name: 'llama-3.3-70b-versatile'
