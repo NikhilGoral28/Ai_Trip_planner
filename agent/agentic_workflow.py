@@ -22,6 +22,8 @@ class GraphBuilder():
             #CurrencyConverterTool()
         ]
 
+        self.system_prompt = SYSTEM_PROMPT
+
     def agent_function(self, state:MessagesState):
         """main agent function"""
         user_question = state['messages']
