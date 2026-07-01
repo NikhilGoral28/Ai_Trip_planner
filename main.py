@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI,middleware
 from pydantic import BaseModel
 from agent.agentic_workflow import GraphBuilder
 from fastapi.responses import JSONResponse
@@ -6,6 +6,9 @@ import os
 
 app = FastAPI()
 
+middleware(
+    
+)
 class QueryRequest(BaseModel):
     query: str
 
