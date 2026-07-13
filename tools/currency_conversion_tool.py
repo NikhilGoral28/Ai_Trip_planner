@@ -9,7 +9,7 @@ class CurrencyConversionTool:
 
         load_dotenv()
         self.api_key = os.environ.get("EXCHANGE_RATES_API_KEY")
-        self.currency_service = CurrencyConversionTool(self.api_key)
+        self.currency_service = CurrencyConverter(self.api_key)
         self.currency_converter_tool_list = self._setup_tools()
 
 

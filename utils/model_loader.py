@@ -8,7 +8,7 @@ from utils.config_loader import load_config
 
 class ConfigLoader:
 
-    def __int__(self):
+    def __init__(self):
         print(f'Loaded config...')
         self.config = load_config()
 
@@ -37,7 +37,7 @@ class ModelLoader(BaseModel):
         if self.model_provider == 'groq':
             print("Loading LLM from Groq ........")
             groq_api_key = os.getenv("GROQ_API_KEY")
-            model_name = self.config['llm']['groq']['model_name']
+            model_name = self.config["llm"]["model_name"]
 
             llm = ChatGroq(model=model_name,api_key=groq_api_key)
 

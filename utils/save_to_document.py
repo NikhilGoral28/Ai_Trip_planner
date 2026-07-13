@@ -28,7 +28,7 @@ def save_document(response_text:str,directory: str = "./output"):
         #Generate timestamp-based filename
 
         timestamp = datetime.datetime.now().strftime('%Y-%m-%d at %H:%M')
-        filename = f"{directory}/AI_Travel_Plan_{timestamp}.md"
+        filename = f"{directory}/AI_TRIP_PLANNER{timestamp}.md"
         
         print(filename)
 

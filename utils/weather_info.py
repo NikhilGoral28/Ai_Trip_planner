@@ -29,7 +29,7 @@ class WeatherForecastTool:
         """Get weather forecast of place"""
 
         try:
-            url = "{self.base_url}/forecast"
+            url = f"{self.base_url}/forecast"
             params = {
                 "q": place,
                 "appid": self.api_key,
